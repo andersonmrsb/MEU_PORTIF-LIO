@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Artigo: Programação Orientada a Objetos</title>
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+    <main>
+    <H1>Programação Orientada a Objetos (POO) </H1>
+
+    <p>Programação Orientada a Objetos (POO) organiza código em classes e objetos, modelando entidades do mundo real. É
+        ideal para sistemas complexos com estados mutáveis e relações entre entidades. </p>
+
+    <h2>A diferença entre a POO e a Programação Procedural está principalmente na forma como o código é estruturado.
+        Enquanto na programação procedural o código é escrito como uma sequência de instruções que o computador deve
+        seguir passo a passo, na Programação Orientada a Objetos (POO) o foco está em organizar o código em torno de
+        objetos. </h2>
+
+    <h2>Vantagens </h2>
+    <ul>
+        <li>Fornece uma estrutura modular para a construção de programas </li>
+        <li>O software se torna mais fácil de manter </li>
+        <li>Reuso de código — desenvolvimento mais rápido </li>
+        <li>Objetos podem ser reutilizados em aplicações diferentes </li>
+        <li>Encapsulamento: não é necessário conhecer a implementação interna de um objeto para poder usá-lo</li>
+    </ul>
+
+    <p>Dentro da POO temos 4 pilares: Encapsulamento, Herança, Abstração e Polimorfismo. Eles ajudam a criar sistemas
+        mais organizados, reutilizáveis e fáceis de manter. </p>
+
+    <h1>Os 4 Pilares da POO </h1>
+
+    <h2>1. Encapsulamento </h2>
+
+    <p>O encapsulamento é um dos pilares da orientação a objetos. Por meio dele, é possível simplificar bastante a
+        programação, bem como proteger informações sigilosas ou sensíveis. Dominar esse conceito é fundamental, uma vez
+        que com ele é possível deixar o código mais legível, funcional e reutilizável.
+
+        Na prática, isso é feito por meio de dois métodos: getters e setters. O primeiro tem por objetivo retornar o
+        valor que lhe foi pedido, mas de forma a não prejudicar a integridade do dado em si. Já o segundo recebe como
+        argumento uma informação, que pode ser qualquer tipo de dado suportado pela linguagem. Dessa forma, não haverá o
+        risco de ocorrerem acessos indevidos. </p>
+
+    <h2>2. Herança </h2>
+
+    <p>A herança possibilita que as classes compartilhem seus atributos, métodos e outros membros da classe entre si.
+        Para a conexão entre as classes, a herança adota um relacionamento esquematizado hierarquicamente.
+
+        Classe Base / Superclasse: A classe que concede as características a uma outra classe.
+
+        Classe Derivada / Subclasse: A classe que herda as características da classe base.
+
+        Quando uma classe herda de outra, ela aproveita os atributos e métodos já existentes. Isso evita que o código
+        fique confuso ou cresça de forma descontrolada. Cada nova classe derivada só precisa acrescentar o que a
+        diferencia das demais, funcionando como uma versão mais específica de um caso geral. </p>
+
+    <h2>3. Abstração </h2>
+    <p>A abstração é essencial no desenvolvimento de software porque permite trabalhar em um nível mais alto, escondendo
+        a complexidade dos detalhes de implementação e focando apenas no comportamento essencial. Isso simplifica o
+        design, manutenção e expansão dos sistemas, garantindo que apenas as informações relevantes sejam expostas,
+        deixando os detalhes internos encapsulados.
+
+        Ao aplicar a abstração, conseguimos criar sistemas modulares, onde as partes internas podem ser alteradas ou
+        aprimoradas sem impactar o resto da aplicação.
+
+        Exemplo: Imagine um sistema de pagamento em e-commerce. Ele lida com diferentes métodos de pagamento (cartão de
+        crédito, PayPal, boleto, etc.). Podemos criar uma interface comum que define o comportamento essencial de um
+        método de pagamento, enquanto as classes concretas implementam cada tipo específico. Assim, se precisarmos
+        adicionar um novo método no futuro, basta criar uma nova classe que implemente a interface, sem alterar o
+        restante do sistema. </p>
+
+    <h2>4. Polimorfismo </h2>
+    <p>O polimorfismo permite que métodos com o mesmo nome se comportem de maneira distinta, dependendo do objeto que
+        está invocando esse método.
+
+        Em seu núcleo, o polimorfismo apoia-se na herança e na interface. Com a herança, uma classe filha pode redefinir
+        métodos de sua classe mãe, permitindo que objetos da classe filha sejam tratados como se fossem da classe mãe,
+        mas com um comportamento específico.
+
+        Exemplo: Considere uma classe base chamada Animal e classes derivadas como Cachorro e Gato. Ambas podem ter um
+        método chamado fazerSom(), mas o cão pode produzir o som “au au” enquanto o gato pode emitir “miau”. Assim, ao
+        chamar fazerSom() em um objeto do tipo Animal, o comportamento real será determinado pelo tipo específico do
+        objeto.
+
+        O polimorfismo é importante porque dá flexibilidade e ajuda a reaproveitar código. Ele permite criar sistemas
+        organizados, que podem crescer ou mudar sem precisar refazer tudo. Assim, os programas ficam mais fáceis de
+        manter e adaptar a novas necessidades. Em resumo, polimorfismo não é só uma técnica: é um princípio que torna o
+        software mais robusto e preparado para evoluir. </p>
+
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

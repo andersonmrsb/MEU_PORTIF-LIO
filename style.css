@@ -621,3 +621,10 @@ footer {
     max-width: 260px;
   }
 }
+
+/* artigos */
+
+main {
+  align-items: center;
+  margin: auto 20% ;
+}
