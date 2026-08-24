@@ -126,7 +126,7 @@ code,
 }
 
 .hero-grid {
-  display: grid;
+
   grid-template-columns: 1.3fr 1fr;
   gap: 4rem;
   align-items: center;
@@ -626,5 +626,5 @@ footer {
 
 main {
   align-items: center;
-  margin: auto 20% ;
+  margin: auto 20%;
 }
